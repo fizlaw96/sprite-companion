@@ -1,0 +1,10 @@
+{
+  "name": "Mochi",
+  "pixelArt": true,
+  "animations": {
+    "idle":      { "file": "mochi.png", "columns": 4, "rows": 1, "frames": 4, "width": 32, "height": 32, "fps": 4 },
+    "thinking":  { "file": "mochi-thinking.png", "columns": 4, "rows": 1, "frames": 4, "width": 32, "height": 32, "fps": 5 },
+    "talking":   { "file": "mochi-talking.png", "columns": 4, "rows": 1, "frames": 4, "width": 32, "height": 32, "fps": 8 },
+    "celebrate": { "file": "mochi-celebrate.png", "columns": 2, "rows": 2, "frames": 4, "width": 32, "height": 32, "fps": 5, "loop": false }
+  }
+}

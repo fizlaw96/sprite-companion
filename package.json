@@ -1,0 +1,14 @@
+{
+  "name": "sprite-companion",
+  "version": "0.1.0",
+  "description": "A reusable sprite companion with optional local or hosted AI chat.",
+  "keywords": ["sprite", "animation", "mascot", "ollama", "chat"],
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20.12" },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
+}

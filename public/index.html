@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sprite Companion</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <section class="character" aria-labelledby="name">
+            <div id="sprite" data-manifest="./sprites/mochi.json" aria-hidden="true"></div>
+            <h1 id="name">Sprite Companion</h1>
+            <div class="animations" aria-label="Animation preview">
+                <button type="button" data-pose="idle">Idle</button>
+                <button type="button" data-pose="thinking">Think</button>
+                <button type="button" data-pose="talking">Talk</button>
+                <button type="button" data-pose="celebrate">Celebrate</button>
+            </div>
+            <p id="sprite-error" role="status"></p>
+        </section>
+        <section aria-labelledby="chat-title">
+            <h2 id="chat-title">Chat</h2>
+            <ol id="history" role="log" aria-label="Conversation"></ol>
+            <p id="status" role="status"></p>
+            <form>
+                <label for="message">Your message</label>
+                <textarea id="message" rows="2" maxlength="1000" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <script type="module" src="./demo.js"></script>
+</body>
+</html>
